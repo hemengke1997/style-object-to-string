@@ -1,3 +1,17 @@
-# ts-template
+# style-object-to-string
 
-a template for typescript project or plugin
+> convert style object to string
+
+# usage
+```typescript
+import { styleObjectToString } from 'style-object-to-string'
+
+styleObjectToString({
+  fontSize: 14,
+  backgroundColor: '#fff',
+}) // 'font-size:14px;background-color:#fff'
+```
+
+# ❤️ react
+
+Source code from react
