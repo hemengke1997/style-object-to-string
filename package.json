@@ -1,6 +1,6 @@
 {
   "name": "@minko-fe/style-object-to-string",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "✨ convert style object to string. eg. { fontSize: 12 } => font-size: 12px",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
