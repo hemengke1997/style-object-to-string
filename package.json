@@ -19,7 +19,14 @@
     "bump": "bumpp package.json --commit --push --tag",
     "release": "pnpm run build && pnpm publish --access public"
   },
-  "keywords": [],
+  "keywords": [
+    "style to string",
+    "object style to string",
+    "style object to string",
+    "css to string",
+    "css object to to string",
+    "object css to string"
+  ],
   "author": "hemengke <https://github.com/hemengke1997>",
   "repository": {
     "type": "git",
