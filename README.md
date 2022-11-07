@@ -4,7 +4,7 @@
 
 # usage
 ```typescript
-import { styleObjectToString } from 'style-object-to-string'
+import { styleObjectToString } from '@minko-fe/style-object-to-string'
 
 styleObjectToString({
   fontSize: 14,
