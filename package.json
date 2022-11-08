@@ -46,6 +46,7 @@
     "@minko-fe/prettier-config": "^1.2.3",
     "@minko-fe/tsconfig": "^1.2.3",
     "bumpp": "^8.2.1",
+    "conventional-changelog-cli": "^2.2.2",
     "csstype": "^3.1.1",
     "eslint": "^8.27.0",
     "prettier": "^2.7.1",
