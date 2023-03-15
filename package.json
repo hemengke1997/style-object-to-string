@@ -1,8 +1,14 @@
 {
   "name": "@minko-fe/style-object-to-string",
+  "type": "module",
   "version": "0.0.1",
-  "author": "hemengke <https://github.com/hemengke1997>",
   "description": "✨ convert style object to string. eg. { fontSize: 12 } => font-size: 12px",
+  "author": "hemengke <https://github.com/hemengke1997>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemengke1997/style-object-to-string.git"
+  },
   "keywords": [
     "style to string",
     "object style to string",
@@ -11,17 +17,16 @@
     "css object to to string",
     "object css to string"
   ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    }
+  },
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "type": "module",
-  "exports": {
-    ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.js",
-      "types": "./dist/index.d.ts"
-    }
-  },
   "files": [
     "dist"
   ],
@@ -34,11 +39,6 @@
     "up": "pnpm update --i --L",
     "bump": "pnpm changelog && bumpp package.json CHANGELOG.md --commit --push --tag -all"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hemengke1997/style-object-to-string.git"
-  },
-  "license": "MIT",
   "devDependencies": {
     "@minko-fe/commitlint-config": "^1.2.23",
     "@minko-fe/eslint-config": "^1.2.23",
