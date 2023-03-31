@@ -1,7 +1,7 @@
 {
   "name": "@minko-fe/style-object-to-string",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "✨ convert style object to string. eg. { fontSize: 12 } => font-size: 12px",
   "author": "hemengke <https://github.com/hemengke1997>",
   "license": "MIT",
